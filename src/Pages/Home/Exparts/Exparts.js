@@ -31,8 +31,8 @@ const experts = [
 
 const Exparts = () => {
   return (
-    <div className="container">
-      <h2 className="text-primary mt-5">Our Exparts</h2>
+    <div className="container" id="experts">
+      <h2 className="text-primary mt-5">Our Experts</h2>
       <div className="row">
         {experts.map((expert) => (
           <Expart key={expert.name} expert={expert}></Expart>
